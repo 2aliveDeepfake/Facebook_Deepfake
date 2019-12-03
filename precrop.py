@@ -26,12 +26,9 @@ def image_resize(image, width = None, height = None, inter = cv2.INTER_AREA):
     bottom = int((height - h)/2)
     image = cv2.copyMakeBorder(resized, top, bottom, left, right, cv2.BORDER_CONSTANT,(0,0,0))
 
-    #if image.shape[:2]!=(128,128) :
-        #image = cv2.resize(image, (128,128))
-
     return image
 
-# get input dir which passed from cmd lines
+# -i "input image 경로" -o "output image 경로"
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--input',
                     dest="input_dir",
