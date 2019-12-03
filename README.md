@@ -1,7 +1,7 @@
 # Facebook_Deepfake
 DFDC : Deep Fake Detection Challenge (Facebook)
 
-박준희, 허란, 전상용, 조은진, 문효범, 이태권 supervised by 기계인간
+박준희, 허란, 전상용, 조은진, 문효범, 윤태권 supervised by 기계인간
 
 <br/>
 
